@@ -7,7 +7,7 @@ import org.junit.Test;
 public class InvitationMailCodeTest extends MailCodeTest {
 
     @Test
-    private void testIntivationMailCode() {
+    public void testIntivationMailCode() {
         InvitationMailCode mailCode = new InvitationMailCode();
         Assert.assertEquals("Dear, Test, We Invite you to out company!!!", mailCode.getMessage(client));
     }
